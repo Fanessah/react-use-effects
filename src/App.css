@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/*normalize css*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url('https://raw.githubusercontent.com/bocacode/node-api-json-coffees/main/coffee-beans-bk.webp');
+  Background-size: 'cover';
+  background-repeat: 'no-repeat';
+  text-align: 'center';
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.menu-items__> img {
+  border-radius:1em;
+  max-height: 40px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.menu-items__> img:hover {
+border-radius:1em;
+max-height: 40px;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
